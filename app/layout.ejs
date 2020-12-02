@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<body>
+<div class="main">
+  <%- contents %>
+</div>
+
+<footer class="footer">
+  <div class="contain">
+    <div class="border">
+      <h3>聯絡方式</h3>
+      <h3 class="mr">CONTACT METHOD</h3>
+    </div>
+    <div class="contact-box">
+      <p>Mail：xxxd@hexschool.com</p>
+      <p>Phone：0910123456</p>
+      <p>Kaohsiung, Taiwan</p>
+      <p>作品連結：https://www.behance.net/xxxdddddd</p>
+    </div>
+    <div class="img-box">
+      <img src="./assets/images/week1/facebook.svg" alt="fb">
+      <img src="./assets/images/week1/instagram-alt.svg" alt="ig">
+      <img src="./assets/images/week1/line.svg" alt="line">
+    </div>
+
+  </div>
+</footer>
+<script src="./assets/js/vendors.js"></script>
+<script src="./assets/js/all.js"></script>
+</body>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +37,5 @@
   <title><%- title %></title>
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
-
-<body>
-  <header class="header">
-    這是 header
-  </header>
-
-  <%- contents %>
-
-  <footer class="footer">
-    footer
-  </footer>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
-</body>
 
 </html>

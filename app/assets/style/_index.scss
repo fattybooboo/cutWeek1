@@ -1,0 +1,136 @@
+.border {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+  h3 {
+    display: inline;
+    font: normal normal normal 32px/43px Noto Sans;
+    letter-spacing: 0;
+    opacity: 1;
+    text-align: left;
+  }
+
+  h3.red-text {
+    margin-left: 16px;
+    font: normal normal medium 24px/28px Roboto;
+    letter-spacing: 0;
+    color: #A00404;
+  }
+}
+
+.main {
+  .title,
+  .img-box,
+  .profile-box,
+  .education,
+  .work-box
+  {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .title {
+    border-bottom: 2px solid #000;
+    h1 {
+      font: normal normal normal 80px/94px Roboto;
+      letter-spacing: 0px;
+      color: #000000;
+      width: 264px;
+      padding: 47px 0 8px 0;
+      margin: 0;
+    }
+  }
+
+  .img-box {
+    img {
+      width: 324px;
+      height: auto;
+      padding: 48px 0;
+    }
+  }
+  .profile-box {
+
+    .contain {
+      padding: 16px 0 72px 0;
+      p {
+        margin: 0;
+        font: normal normal normal 24px/36px Noto Sans;
+        letter-spacing: 0;
+        color: #000000;
+      }
+      p.mt {
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .education {
+    .contain {
+      padding: 16px 0 72px 0;
+      p {
+        margin: 0;
+        font: normal normal normal 24px/36px Noto Sans;
+        letter-spacing: 0;
+        color: #000000;
+      }
+      p + p {
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .skill-box {
+    background-color: #415165;
+    .contain {
+      max-width: 1100px;
+      margin: 0 auto;
+
+      .border {
+        border-bottom: 1px solid #fff;
+        padding: 24px 0 8px 0;
+        text-align: center;
+        h3 {
+          display: inline;
+          font: normal normal medium 24px/28px Roboto;
+          letter-spacing: 0;
+          color: #FFFFFF;
+          margin: 0 auto;
+        }
+        h3.ml {
+          margin-left: 16px;
+        }
+      }
+
+      .skills {
+        max-width: 220px;
+        margin: 0 auto;
+        padding: 36px 0;
+        p {
+          font: normal normal 300 24px/36px PingFang TC;
+          letter-spacing: 0;
+          color: #FFFFFF;
+          border-left: 1px solid #fff;
+          padding-left: 16px;
+        }
+      }
+    }
+  }
+
+  .work-box {
+    padding: 82px 0 72px 0;
+
+    .contain {
+      max-width: 50%;
+      margin-left: 16px;
+      margin-right: auto;
+      border-left: 1px solid #000000;
+      p, img {
+        padding: 8px;
+      }
+      p:first-of-type {
+        margin-top: 8px;
+      }
+    }
+
+  }
+
+}
