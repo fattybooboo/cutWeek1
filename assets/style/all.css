@@ -1,23 +1,134 @@
-.header {
-  height: 200px;
-  background-color: #00cc99; }
-
+@import url(reset.css);
 .footer {
-  height: 200px;
-  background-color: #00cc99; }
+  background-color: #415165; }
+  .footer .contain {
+    padding-top: 24px;
+    padding-bottom: 36px;
+    max-width: 1100px;
+    margin: 0 auto; }
+    .footer .contain .border {
+      padding-bottom: 8px;
+      border-bottom: 2px solid #fff;
+      text-align: center; }
+      .footer .contain .border h3 {
+        display: inline;
+        font: normal normal normal 32px/43px Noto Sans;
+        letter-spacing: 0;
+        color: #fff;
+        opacity: 1; }
+      .footer .contain .border h3.mr {
+        margin-left: 16px; }
+    .footer .contain .contact-box p {
+      text-align: center;
+      font: normal normal 300 24px/36px Roboto;
+      letter-spacing: 0;
+      color: #FFFFFF; }
+    .footer .contain .contact-box p:first-of-type {
+      padding-top: 16px; }
+    .footer .contain .img-box {
+      text-align: center; }
+      .footer .contain .img-box img {
+        display: inline;
+        width: 48px;
+        height: auto;
+        margin: 16px 12px 0 12px; }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .box:hover {
-    width: 200px;
-    background-color: #00cc99; }
+.border {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000; }
+  .border h3 {
+    display: inline;
+    font: normal normal normal 32px/43px Noto Sans;
+    letter-spacing: 0;
+    opacity: 1;
+    text-align: left; }
+  .border h3.red-text {
+    margin-left: 16px;
+    font: normal normal medium 24px/28px Roboto;
+    letter-spacing: 0;
+    color: #A00404; }
+
+.main .title,
+.main .img-box,
+.main .profile-box,
+.main .education,
+.main .work-box {
+  max-width: 1100px;
+  margin: 0 auto; }
+
+.main .title {
+  border-bottom: 2px solid #000; }
+  .main .title h1 {
+    font: normal normal normal 80px/94px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    width: 264px;
+    padding: 47px 0 8px 0;
+    margin: 0; }
+
+.main .img-box img {
+  width: 324px;
+  height: auto;
+  padding: 48px 0; }
+
+.main .profile-box .contain {
+  padding: 16px 0 72px 0; }
+  .main .profile-box .contain p {
+    margin: 0;
+    font: normal normal normal 24px/36px Noto Sans;
+    letter-spacing: 0;
+    color: #000000; }
+  .main .profile-box .contain p.mt {
+    margin-top: 24px; }
+
+.main .education .contain {
+  padding: 16px 0 72px 0; }
+  .main .education .contain p {
+    margin: 0;
+    font: normal normal normal 24px/36px Noto Sans;
+    letter-spacing: 0;
+    color: #000000; }
+  .main .education .contain p + p {
+    margin-top: 24px; }
+
+.main .skill-box {
+  background-color: #415165; }
+  .main .skill-box .contain {
+    max-width: 1100px;
+    margin: 0 auto; }
+    .main .skill-box .contain .border {
+      border-bottom: 1px solid #fff;
+      padding: 24px 0 8px 0;
+      text-align: center; }
+      .main .skill-box .contain .border h3 {
+        display: inline;
+        font: normal normal medium 24px/28px Roboto;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        margin: 0 auto; }
+      .main .skill-box .contain .border h3.ml {
+        margin-left: 16px; }
+    .main .skill-box .contain .skills {
+      max-width: 220px;
+      margin: 0 auto;
+      padding: 36px 0; }
+      .main .skill-box .contain .skills p {
+        font: normal normal 300 24px/36px PingFang TC;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        border-left: 1px solid #fff;
+        padding-left: 16px; }
+
+.main .work-box {
+  padding: 82px 0 72px 0; }
+  .main .work-box .contain {
+    max-width: 50%;
+    margin-left: 16px;
+    margin-right: auto;
+    border-left: 1px solid #000000; }
+    .main .work-box .contain p, .main .work-box .contain img {
+      padding: 8px; }
+    .main .work-box .contain p:first-of-type {
+      margin-top: 8px; }
 
 /*# sourceMappingURL=all.css.map */
